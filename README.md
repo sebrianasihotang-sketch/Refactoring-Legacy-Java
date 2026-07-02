@@ -1,7 +1,16 @@
-# Refactoring Legacy Java Swing
+# Refactoring Legacy Java
+
+## Nama
+Sebriana Sihotang
 
 ## Deskripsi
-Project ini dibuat sebagai simulasi refactoring kode legacy Java Swing.
+Aplikasi CRUD Data Mahasiswa menggunakan Java Swing dan MySQL.
+
+## Fitur
+- Tambah Data
+- Ubah Data
+- Hapus Data
+- Tampil Data
 
 ## Struktur
 - entity
@@ -12,10 +21,6 @@ Project ini dibuat sebagai simulasi refactoring kode legacy Java Swing.
 - utils
 - view
 
-## Database
-Import file `database.sql` ke MySQL.
-
 ## Cara Menjalankan
-1. Jalankan MySQL.
-2. Import database.sql.
-3. Jalankan MainFrame.java.
+1. Import database.sql ke MySQL.
+2. Jalankan MainFrame.java.

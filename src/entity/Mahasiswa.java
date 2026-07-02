@@ -38,4 +38,13 @@ public class Mahasiswa {
     public void setJurusan(String jurusan) {
         this.jurusan = jurusan;
     }
+
+    @Override
+    public String toString() {
+        return "Mahasiswa{" +
+                "nim='" + nim + '\'' +
+                ", nama='" + nama + '\'' +
+                ", jurusan='" + jurusan + '\'' +
+                '}';
+    }
 }
